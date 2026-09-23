@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Indica que el documento está en español -->
+
+<head> <!-- Configuración y archivos que necesita la página -->
+  <meta charset="utf-8"> <!-- Para que se vean bien las tildes y la Ñ -->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"> <!-- Para que se adapte a celulares -->
+  <title>Estudios - CV Grupal</title> <!-- Título en la pestaña del navegador -->
+
+  <!-- Archivos de diseño Bootstrap y estilos -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- Estilos principales de Bootstrap -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> <!-- Iconos de Bootstrap -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet"> <!-- Efectos de animación -->
+  <link href="assets/css/main.css" rel="stylesheet"> <!-- Estilos propios del grupo -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> <!-- Iconos adicionales -->
+</head> 
+
+<body class="services-page"> <!-- Cuerpo de la página -->
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top"> <!-- Barra de navegación superior -->
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between"> <!-- Organiza el menú -->
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0"> <!-- Logo al inicio -->
+        <h1 class="sitename">Juan Quintero</h1> 
+      </a> 
+
+      <nav id="navmenu" class="navmenu"> <!-- Menú de navegación -->
+        <ul> 
+          <li><a href="index.html">Inicio</a></li> 
+          <li><a href="presentacion.html">Presentacion</a></li> 
+          <li><a href="DatosPersonales.html">Mis datos</a></li> 
+          <li><a href="estudios.html" class="active">estudios</a></li> <!-- Página actual -->
+          <li><a href="habilidades.html">habilidades</a></li> 
+          <li><a href="proyectos.html">proyectos</a></li> 
+          <li><a href="contacto.html">Contacto</a></li> 
+        </ul> 
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i> <!-- Botón de menú para celulares -->
+      </nav> 
+
+      <div class="header-social-links"> <!-- Redes sociales arriba -->
+         <a href="https://wa.me/573001234567" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+      </div> 
+
+    </div> 
+  </header> 
+
+  <main class="main"> <!-- Contenido principal -->
+
+    <!-- Sección de Estudios -->
+    <section id="estudios" class="estudios section"> 
+
+      <!-- Título de la sección -->
+      <div class="container section-title" data-aos="fade-up"> 
+        <h2>Estudios</h2> 
+        <p>Formación académica y trayectoria educativa</p> 
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100"> 
+        <div class="row gy-4 justify-content-center"> 
+
+          <!-- Columna central basada en el diseño de tu compañero -->
+          <div class="col-lg-8"> 
+            <div class="row gy-4"> 
+
+              <!-- Tarjeta 1: Tecnólogo ADSO -->
+              <div class="col-md-12" data-aos="fade-up" data-aos-delay="200"> 
+                <div class="card border-0 shadow-sm p-4 rounded-4"> <!-- Tarjeta de Bootstrap -->
+                  <div class="card-body"> 
+                    <div class="d-flex align-items-center mb-3"> 
+                      <div class="icon-box bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; min-width: 50px;"> 
+                        <i class="fa-solid fa-laptop-code fs-4"></i> 
+                      </div> 
+                      <div> 
+                        <h3 class="card-title h5 fw-bold mb-1">Tecnólogo en Análisis y Desarrollo de Software (ADSO)</h3> 
+                        <h6 class="text-muted small mb-0"><i class="bi bi-building me-1"></i> Servicio Nacional de Aprendizaje (SENA)</h6> 
+                      </div> 
+                    </div> 
+                    <p class="text-primary small mb-2 fw-semibold"><i class="bi bi-clock-history me-1"></i> Estado: En proceso de finalización</p> 
+                    <p class="card-text text-secondary mb-0"> 
+                      Formación tecnológica enfocada en el diseño, desarrollo, implementación y pruebas de sistemas informáticos bajo estándares de calidad, aplicando metodologías ágiles y control de versiones.
+                    </p> 
+                  </div> 
+                </div> 
+              </div>
+
+              <!-- Tarjeta 2: Secundaria Politécnico -->
+              <div class="col-md-12" data-aos="fade-up" data-aos-delay="300"> 
+                <div class="card border-0 shadow-sm p-4 rounded-4"> 
+                  <div class="card-body"> 
+                    <div class="d-flex align-items-center mb-3"> 
+                      <div class="icon-box bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; min-width: 50px;"> 
+                        <i class="fa-solid fa-graduation-cap fs-4"></i> 
+                      </div> 
+                      <div> 
+                        <h3 class="card-title h5 fw-bold mb-1">Educación Secundaria - Grado Undécimo</h3> 
+                        <h6 class="text-muted small mb-0"><i class="bi bi-building me-1"></i> Politécnico</h6> 
+                      </div> 
+                    </div> 
+                    <p class="text-success small mb-2 fw-semibold"><i class="bi bi-check-circle me-1"></i> Estado: Finalizado / Graduado</p> 
+                    <p class="card-text text-secondary mb-0"> 
+                      Culminación exitosa de los estudios de educación media y undécimo grado, consolidando las bases académicas integrales del estudiante.
+                    </p> 
+                  </div> 
+                </div> 
+              </div>
+
+            </div> 
+          </div> 
+
+        </div> 
+      </div> 
+
+    </section> 
+
+  </main> 
+
+  <footer id="footer" class="footer light-background"> <!-- Pie de página -->
+    <div class="container"> 
+      <div class="copyright text-center "> 
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Juan Quintero</strong> <span>Todos los derechos reservados<br></span></p> 
+      </div> 
+      <div class="social-links d-flex justify-content-center"> 
+         <a href="https://wa.me/573001234567" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+      </div> 
+    </div> 
+  </footer> 
+
+  <!-- Botón flotante para subir -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> 
+
+  <!-- Scripts esenciales de Bootstrap y animaciones -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> <!-- Funcionalidad de Bootstrap -->
+  <script src="assets/vendor/aos/aos.js"></script> <!-- Animaciones al deslizar -->
+  <script src="assets/js/main.js"></script> <!-- Script principal -->
+
+</body> 
+</html>
